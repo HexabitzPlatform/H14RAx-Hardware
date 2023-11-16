@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="6.25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -188,7 +188,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwyMzYzMzA4" projecturn="a.YnVzaW5lc3M6Z21haWwyMzYzMzA4I0QyMDIyMDIyNzUwMTk3Njc4MQ" f3durn="urn:adsk.wipprod:dm.lineage:3TK5wwYdQba8mvkQ2k_Whg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="71bc4417-8685-483f-bcdd-560849d85bb8" lastsyncedrevisionid="71bc4417-8685-483f-bcdd-560849d85bb8" lastboardhashguid="b55b573a-1e0c-1861-b11a-066ca6582778" lastpushedtime="2023-05-27T19:26:08Z" linktopcb3d="false"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwyMzYzMzA4" projecturn="a.YnVzaW5lc3M6Z21haWwyMzYzMzA4I0QyMDIyMDIyNzUwMTk3Njc4MQ" f3durn="urn:adsk.wipprod:dm.lineage:3TK5wwYdQba8mvkQ2k_Whg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="71bc4417-8685-483f-bcdd-560849d85bb8" lastsyncedrevisionid="71bc4417-8685-483f-bcdd-560849d85bb8" lastboardhashguid="b55b573a-1e0c-1861-b11a-066ca6582778" lastpushedtime="2023-05-27T19:26:08Z" linktopcb3d="true"/>
 <plain>
 <rectangle x1="7.410321875" y1="17.23351875" x2="8.161653125" y2="17.24825" layer="21"/>
 <rectangle x1="7.29246875" y1="17.24825" x2="8.1763875" y2="17.26298125" layer="21"/>
@@ -580,11 +580,11 @@
 <rectangle x1="7.0796125" y1="17.281525" x2="8.19924375" y2="17.29625625" layer="21"/>
 <text x="11.1125" y="18.7325" size="1.9304" layer="21">P1</text>
 <text x="1.5875" y="26.3525" size="1.9304" layer="26" rot="MR0">P6</text>
-<text x="9.525" y="9.2075" size="1.9304" layer="21">P2*</text>
-<text x="11.27125" y="5.23875" size="1.9304" layer="26" rot="MR0">P2*</text>
-<text x="-9.2075" y="25.7175" size="1.9304" layer="26" rot="MR270">P5*</text>
-<text x="-14.2875" y="18.57375" size="1.9304" layer="21" rot="SR0">P5*</text>
-<text x="-13.81125" y="9.2075" size="1.9304" layer="21" rot="SR0">P4</text>
+<text x="9.04875" y="10.00125" size="1.9304" layer="21" rot="R270">*P2</text>
+<text x="11.58875" y="5.23875" size="1.9304" layer="26" rot="MR0">*P2</text>
+<text x="-9.2075" y="24.4475" size="1.9304" layer="26" rot="MR270">P5</text>
+<text x="-14.2875" y="18.57375" size="1.9304" layer="21" rot="SR0">P5</text>
+<text x="-11.27125" y="9.04875" size="1.9304" layer="21" rot="SR270">P4</text>
 <text x="-11.58875" y="7.14375" size="1.9304" layer="26" rot="MR180">P4</text>
 <text x="-1.27" y="3.96875" size="1.9304" layer="26" rot="MR180">P3</text>
 <text x="-1.27" y="1.905" size="1.9304" layer="21">P3</text>
